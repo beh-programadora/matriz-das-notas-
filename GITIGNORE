@@ -1,0 +1,41 @@
+
+### .gitignore
+
+```gitignore
+# Ignorar arquivos Python compilados
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar diretórios de cache
+__pycache__/
+Enunciado do Projeto
+# Enunciado do Projeto: Leitor de Matriz 2x3
+
+## Objetivo
+
+Desenvolver um script em Python que solicite ao usuário a entrada de valores para preencher uma matriz de dimensões 2x3 e exiba a matriz formatada.
+
+## Requisitos
+
+1. O script deve inicializar uma lista vazia para armazenar a matriz.
+2. Utilizar dois loops `for` para solicitar e ler valores do usuário, preenchendo uma matriz 2x3.
+3. Armazenar cada linha da matriz como uma lista dentro da lista principal.
+4. Exibir a matriz linha por linha após o preenchimento.
+
+## Passos para Implementação
+
+1. Crie um arquivo chamado `leitor_matriz.py`.
+2. No arquivo, inicialize uma lista vazia chamada `matriz`.
+3. Utilize um loop `for` para iterar sobre as linhas da matriz.
+4. Dentro desse loop, utilize um segundo loop `for` para iterar sobre as colunas.
+5. Solicite ao usuário que insira um valor para cada posição da matriz e armazene-o na linha correspondente.
+6. Adicione a linha preenchida à matriz.
+7. Após o preenchimento da matriz, exiba a matriz formatada, linha por linha, usando a função `print()`.
+8. Salve e execute o script para verificar se a matriz é exibida corretamente.
+
+## Exemplo de Saída Esperada
+
+Digite o valor para posição (1,1): 1.1 Digite o valor para posição (1,2): 2.2 Digite o valor para posição (1,3): 3.3 Digite o valor para posição (2,1): 4.4 Digite o valor para posição (2,2): 5.5 Digite o valor para posição (2,3): 6.6
+
+Matriz digitada: [1.1, 2.2, 3.3] [4.4, 5.5, 6.6]
